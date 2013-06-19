@@ -2,7 +2,7 @@
 // @name          Display Unread Count in Tab for OWA
 // @namespace     www.jaredpavan.com
 // @description   This will check for unread messages and put the unread count in the Outlook Web App tab.
-// @include       https://usowan.*.com/owa/*
+// @include       */owa/*
 // ==/UserScript==
 
 function update_unread() {
@@ -18,8 +18,11 @@ function update_unread() {
 	
 	var CurTabVal = document.title.charAt(1);
 	
-	if (CurrVal != CurTabVal) {
+	if (CurrVal != CurTabVal && CurrVal != 0) {
 		document.title = "(" + CurrVal + ") " + MasterTitle;
+	}
+	if (CurrVal == 0) {
+		document.title = MasterTitle;
 	}
 }
 
