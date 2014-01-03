@@ -17,3 +17,6 @@ Chrome Extension Page (manifest file may need fixed):
 https://chrome.google.com/webstore/detail/display-unread-count-in-t/eelenpkmbodgopefpbdghdmbeakcfnhc
 
 https://github.com/pavanjared/OWA-Unread-Message-Count
+
+Version 1.2.3 Update
+-Replaced custom title with unread count appended over Tinycon

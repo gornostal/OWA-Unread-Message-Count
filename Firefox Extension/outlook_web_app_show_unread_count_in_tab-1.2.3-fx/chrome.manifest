@@ -1,0 +1,2 @@
+content	displayunreadcountintabforowa	content/
+overlay	chrome://browser/content/browser.xul	chrome://displayunreadcountintabforowa/content/script-compiler-overlay.xul

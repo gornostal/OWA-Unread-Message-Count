@@ -1,9 +1,3 @@
-// ==UserScript==
-// @name          Display Unread Count in Tab for OWA
-// @namespace     www.jaredpavan.com
-// @description   This will check for unread messages and put the unread count in the Outlook Web App tinycon.
-// @include       */owa/*
-// ==/UserScript==
 
 //Read in tinycon.min.js
 /*!
