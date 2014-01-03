@@ -20,3 +20,7 @@ https://github.com/pavanjared/OWA-Unread-Message-Count
 
 Version 1.2.3 Update
 -Replaced custom title with unread count appended over Tinycon
+
+Support the development of this extension via Bitcoin or Dogecoin (for transparency)!
+Bitcoin: 1DjZehKXGKAfecbcDYsjzT7pTmCXt5mFE1
+Dogecoin: DPWbVMZespWTk9WVZQ8D5u25EPHvWiDrVn
