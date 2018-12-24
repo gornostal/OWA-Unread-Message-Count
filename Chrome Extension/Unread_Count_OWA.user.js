@@ -38,8 +38,7 @@ function update_unread() {
 		if (CurrVal > 99) {
 			Tinycon.setBubble("99+");
 		}
-	}
-	if (CurrVal == 0 && MasterTitle.substring(0,8) != 'Untitled') {
+	} else if (MasterTitle.substring(0,8) != 'Untitled') {
 		Tinycon.setBubble(0);
 	}
 }
